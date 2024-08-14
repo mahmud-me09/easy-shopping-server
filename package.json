@@ -1,0 +1,25 @@
+{
+  "name": "easy-shopping-server",
+  "version": "1.0.0",
+  "description": "server setup for easy shopping",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahmud-me09/easy-shopping-server.git"
+  },
+  "author": "Mahmud Hasan Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahmud-me09/easy-shopping-server/issues"
+  },
+  "homepage": "https://github.com/mahmud-me09/easy-shopping-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0"
+  }
+}
