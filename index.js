@@ -38,9 +38,10 @@ async function run() {
 		});
 
 		app.get("/products", async (req, res) => {
+
 			try {
-				const product = await productCollection.find().toArray();
-				res.send(result);
+				const products = await productCollection.find().toArray();
+				res.send(products);
 			} catch (error) {
 				console.error(
 					"Error fetching data from product collection:",
