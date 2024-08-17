@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "server setup for easy shopping",
   "main": "index.js",
+  
   "scripts": {
-    "test": "nodemon index.js"
+    "test": "nodemon index.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
