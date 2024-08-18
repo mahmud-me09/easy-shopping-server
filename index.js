@@ -78,7 +78,6 @@ async function run() {
 					.skip(parseInt(page) * parseInt(limit))
 					.limit(parseInt(limit))
 					.toArray();
-				console.log(query)
 				res.send(products);
 			} catch (error) {
 				console.error(
