@@ -34,7 +34,7 @@ async function run() {
 			res.send("Hello World!");
 		});
 
-		// counting total product
+		
 		
 
 		// products query
@@ -90,6 +90,8 @@ async function run() {
 				);
 			}
 		});
+
+		// counting total product
 
 		app.get("/totalproducts", async (req, res) => {
 			try {
