@@ -12,6 +12,9 @@
 
 #### For total number of documents in MongoDB:
     https://easy-shopping-server-rho.vercel.app/totalproducts
+
+#### For accessing all documents in MongoDB:
+    https://easy-shopping-server-rho.vercel.app/products
     
 ### Client side is live at:
     https://easy-shopping-website-1b109.web.app
