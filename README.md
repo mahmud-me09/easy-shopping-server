@@ -9,6 +9,9 @@
 
 ### The API is live at: 
     https://easy-shopping-server-rho.vercel.app/
+
+#### For total number of documents in MongoDB:
+    https://easy-shopping-server-rho.vercel.app/totalproducts
     
 ### Client side is live at:
     https://easy-shopping-website-1b109.web.app
